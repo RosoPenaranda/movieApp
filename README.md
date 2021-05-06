@@ -1,27 +1,24 @@
-# TRACKING-UI
+# Movie app
 
-Entorno grafico que permitira a los clientes hacer seguimiento de sus ordenes y
-al encargado de ventas online agregar el número de guia a las ordenes.
+Respuesta Frontend ReactDeveloper de MasGlobal Consulting
 
 ### Instalación
 
 - Es necesario tener instalado Nodejs en el servidor v12.18.3
 - Instalar las dependencias del proyecto:
+
   ```bash
     npm install
   ```
 
-### Archivos de configuración
+  para correr el proyecto ejecute:
 
-Debe completar la informacion del archivo de configuración:
+  ```bash
+    npm run start
 
-- .env
+  ```
 
-El archivo tiene un .ejemplo asociado
-
-## Soporte
-
-Para cualquier duda por favor comunicarse con el equipo de soporte a programadorweb@ciclospecial.com
+  Al momento de subir este readme, no estan implementos los test sobre el app
 
 ## Stay in touch
 
