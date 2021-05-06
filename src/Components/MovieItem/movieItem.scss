@@ -1,0 +1,14 @@
+@import '../../Assets/Styles/base.scss';
+.icon {
+  height: 20px;
+}
+
+.info {
+  width: 90%;
+}
+.options {
+  width: 10%;
+}
+.selected {
+  border: solid thin $rojo !important;
+}

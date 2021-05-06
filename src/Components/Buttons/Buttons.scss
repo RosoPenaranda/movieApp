@@ -1,0 +1,12 @@
+@import '../../Assets/Styles/base.scss';
+
+.btn-red {
+  background-color: $rojo !important;
+  color: $blanco !important;
+}
+
+.btn-red:hover {
+  background-color: #fff !important;
+  color: $rojo !important;
+  border: solid thin $rojo !important;
+}
