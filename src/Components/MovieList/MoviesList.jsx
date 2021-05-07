@@ -17,6 +17,15 @@ const MoviesList = ({
     deleteMovie(index)
   }
 
+
+  if (movieList.length === 0) {
+    return (
+      <div className="col-12 col-lg-3 py-1 tex-center border rounded">
+        <p className="mt-3" >The list of movies is empty</p>
+      </div>
+    )
+  }
+
   return (
     <div className="col-12 col-lg-3 py-1 border rounded">
       {movieList.map((movie, index) => {

@@ -18,7 +18,12 @@ Respuesta Frontend ReactDeveloper de MasGlobal Consulting
 
   ```
 
-  Al momento de subir este readme, no estan implementos los test sobre el app
+Para correr los test
+
+```bash
+  npm run test
+
+```
 
 ## Stay in touch
 

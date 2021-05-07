@@ -3,12 +3,6 @@ import { useFormateDate } from '../../Hooks/UseFormateDate'
 
 const MovieDetail = ({ movie }) => {
 
-  const decodeBase64 = () => {
-    return Buffer.from(movie.img, "base64").toString()
-  }
-
-  decodeBase64()
-
   return (
     <div className="row">
       <div className="col">

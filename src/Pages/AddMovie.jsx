@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { addMovie } from "../Redux/Actions/moviesActions"
 import Movieform from "../Components/MovieForm/MovieForm";
 
-const AddMovie = ({ goHome, addMovie }) => {
+const AddMovie = ({ addMovie }) => {
 
 
   return (
@@ -14,13 +14,8 @@ const AddMovie = ({ goHome, addMovie }) => {
 };
 
 
-const mapStateToProps = (state) => {
-  return {
-    goHome: state.goHome,
-  };
-};
 const mapToDispatchToPros = {
   addMovie,
 };
 
-export default connect(mapStateToProps, mapToDispatchToPros)(AddMovie);
+export default connect(null, mapToDispatchToPros)(AddMovie);
